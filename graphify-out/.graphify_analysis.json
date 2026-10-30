@@ -1,89 +1,275 @@
 {
   "communities": {
     "0": [
+      "package",
+      "package_devdependencies",
+      "package_devdependencies_autoprefixer",
+      "package_devdependencies_postcss",
+      "package_devdependencies_tailwindcss",
+      "package_devdependencies_types_node",
+      "package_devdependencies_types_react",
+      "package_devdependencies_types_react_dom",
+      "package_devdependencies_typescript",
+      "package_devdependencies_vite",
+      "package_devdependencies_vitejs_plugin_react",
+      "package_devdependencies_vitest",
+      "package_name",
+      "package_private",
+      "package_type",
+      "package_version",
+      "ref_autoprefixer",
+      "ref_node_url",
+      "ref_postcss",
+      "ref_tailwindcss",
+      "ref_types_node",
+      "ref_types_react",
+      "ref_types_react_dom",
+      "ref_typescript",
+      "ref_vite",
+      "ref_vitejs_plugin_react",
+      "ref_vitest",
+      "tailwind_config",
+      "vite_config"
+    ],
+    "1": [
+      "ref_lucide_react",
+      "ref_react",
+      "ref_tanstack_react_router",
+      "src_components_brand",
+      "src_components_brand_brand",
+      "src_components_ui_button",
+      "src_components_ui_button_button",
+      "src_components_ui_button_props",
+      "src_index",
+      "src_main",
+      "src_router",
+      "src_router_register",
+      "src_router_router",
+      "src_router_routetree",
+      "src_router_tanstack_react_router",
+      "src_routes_admin",
+      "src_routes_admin_route",
+      "src_routes_credenciamento",
+      "src_routes_credenciamento_route",
+      "src_routes_index",
+      "src_routes_index_home",
+      "src_routes_index_route",
+      "src_routes_privacidade",
+      "src_routes_privacidade_privacy",
+      "src_routes_privacidade_route",
+      "src_routes_root",
+      "src_routes_root_notfound",
+      "src_routes_root_root",
+      "src_routes_root_route"
+    ],
+    "2": [
+      "tsconfig",
+      "tsconfig_compileroptions",
+      "tsconfig_compileroptions_baseurl",
+      "tsconfig_compileroptions_esmoduleinterop",
+      "tsconfig_compileroptions_isolatedmodules",
+      "tsconfig_compileroptions_jsx",
+      "tsconfig_compileroptions_lib",
+      "tsconfig_compileroptions_module",
+      "tsconfig_compileroptions_moduleresolution",
+      "tsconfig_compileroptions_noemit",
+      "tsconfig_compileroptions_paths",
+      "tsconfig_compileroptions_resolvejsonmodule",
+      "tsconfig_compileroptions_skiplibcheck",
+      "tsconfig_compileroptions_strict",
+      "tsconfig_compileroptions_target",
+      "tsconfig_compileroptions_types",
+      "tsconfig_include"
+    ],
+    "3": [
       "github_workflows_cortex",
+      "github_workflows_cortex_build_cortex_runs_on",
+      "github_workflows_cortex_build_cortex_steps",
+      "github_workflows_cortex_concurrency",
+      "github_workflows_cortex_concurrency_cancel_in_progress",
+      "github_workflows_cortex_concurrency_group",
+      "github_workflows_cortex_jobs",
+      "github_workflows_cortex_jobs_build_cortex",
       "github_workflows_cortex_name",
       "github_workflows_cortex_on",
       "github_workflows_cortex_on_workflow_dispatch",
       "github_workflows_cortex_permissions",
-      "github_workflows_cortex_permissions_contents"
-    ],
-    "1": [
-      "github_workflows_cortex_build_cortex_steps",
+      "github_workflows_cortex_permissions_contents",
       "github_workflows_cortex_steps_name",
       "github_workflows_cortex_steps_run",
       "github_workflows_cortex_steps_uses"
     ],
-    "2": [
-      "github_workflows_cortex_build_cortex_runs_on",
-      "github_workflows_cortex_jobs",
-      "github_workflows_cortex_jobs_build_cortex"
+    "4": [
+      "src_lib_visitor_validation",
+      "src_lib_visitor_validation_drafterrors",
+      "src_lib_visitor_validation_emptydraft",
+      "src_lib_visitor_validation_normalizedraft",
+      "src_lib_visitor_validation_test",
+      "src_lib_visitor_validation_test_valid",
+      "src_lib_visitor_validation_validatedraft",
+      "src_lib_visitor_validation_visitordraft",
+      "src_lib_visitor_validation_visitortype",
+      "src_lib_visitor_validation_visitortypes",
+      "src_routes_credenciamento_registration",
+      "src_routes_credenciamento_registration_change",
+      "src_routes_credenciamento_registration_clear",
+      "src_routes_credenciamento_registration_error",
+      "src_routes_credenciamento_registration_review"
     ],
-    "3": [
-      "github_workflows_cortex_concurrency",
-      "github_workflows_cortex_concurrency_cancel_in_progress",
-      "github_workflows_cortex_concurrency_group"
+    "5": [
+      "src_lib_supabase",
+      "src_lib_supabase_authenticationerror",
+      "src_lib_supabase_ispublicconfigurationvalid",
+      "src_lib_supabase_publishablekey",
+      "src_lib_supabase_supabase",
+      "src_lib_supabase_url",
+      "src_routes_admin_admin",
+      "src_routes_admin_admin_signout",
+      "src_routes_admin_admin_submit",
+      "src_routes_admin_admin_switchmode"
+    ],
+    "6": [
+      "package_dependencies",
+      "package_dependencies_lucide_react",
+      "package_dependencies_react",
+      "package_dependencies_react_dom",
+      "package_dependencies_supabase_supabase_js",
+      "package_dependencies_tanstack_react_router",
+      "ref_react_dom",
+      "ref_supabase_supabase_js"
+    ],
+    "7": [
+      "package_scripts",
+      "package_scripts_build",
+      "package_scripts_dev",
+      "package_scripts_preview",
+      "package_scripts_test",
+      "package_scripts_test_watch"
+    ],
+    "8": [
+      "postcss_config"
     ]
   },
   "cohesion": {
-    "0": 0.3333333333333333,
-    "1": 0.5,
-    "2": 0.6666666666666666,
-    "3": 0.6666666666666666
+    "0": 0.0960591133004926,
+    "1": 0.1748768472906404,
+    "2": 0.11764705882352941,
+    "3": 0.125,
+    "4": 0.22857142857142856,
+    "5": 0.24444444444444444,
+    "6": 0.25,
+    "7": 0.3333333333333333,
+    "8": 1.0
   },
   "gods": [
     {
-      "id": "github_workflows_cortex_build_cortex_steps",
-      "label": "steps",
-      "degree": 4
+      "id": "tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "degree": 15
     },
     {
-      "id": "github_workflows_cortex_concurrency",
-      "label": "concurrency",
-      "degree": 3
+      "id": "src_routes_credenciamento_registration",
+      "label": "Registration()",
+      "degree": 10
     },
     {
-      "id": "github_workflows_cortex_jobs_build_cortex",
-      "label": "build-cortex",
-      "degree": 3
+      "id": "ref_tanstack_react_router",
+      "label": "@tanstack/react-router",
+      "degree": 9
     },
     {
-      "id": "github_workflows_cortex_on",
-      "label": "on",
-      "degree": 2
+      "id": "src_components_brand_brand",
+      "label": "Brand()",
+      "degree": 9
     },
     {
-      "id": "github_workflows_cortex_permissions",
-      "label": "permissions",
-      "degree": 2
+      "id": "ref_lucide_react",
+      "label": "lucide-react",
+      "degree": 8
     },
     {
-      "id": "github_workflows_cortex_jobs",
-      "label": "jobs",
-      "degree": 2
+      "id": "src_components_ui_button_button",
+      "label": "Button",
+      "degree": 7
     },
     {
-      "id": "github_workflows_cortex_name",
-      "label": "name",
-      "degree": 1
+      "id": "src_routes_root_route",
+      "label": "Route",
+      "degree": 7
     },
     {
-      "id": "github_workflows_cortex_on_workflow_dispatch",
-      "label": "workflow_dispatch",
-      "degree": 1
+      "id": "src_routes_admin_admin",
+      "label": "Admin()",
+      "degree": 7
     },
     {
-      "id": "github_workflows_cortex_permissions_contents",
-      "label": "contents",
-      "degree": 1
+      "id": "package_scripts",
+      "label": "scripts",
+      "degree": 6
     },
     {
-      "id": "github_workflows_cortex_concurrency_group",
-      "label": "group",
-      "degree": 1
+      "id": "ref_react",
+      "label": "react",
+      "degree": 6
     }
   ],
-  "surprises": [],
+  "surprises": [
+    {
+      "source": "Admin()",
+      "target": "Brand()",
+      "source_files": [
+        "src/routes/admin.tsx",
+        "src/components/brand.tsx"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "Registration()",
+      "target": "Brand()",
+      "source_files": [
+        "src/routes/credenciamento.tsx",
+        "src/components/brand.tsx"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "Home()",
+      "target": "Brand()",
+      "source_files": [
+        "src/routes/index.tsx",
+        "src/components/brand.tsx"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "peripheral node `Home()` unexpectedly reaches hub `Brand()`"
+    },
+    {
+      "source": "Privacy()",
+      "target": "Brand()",
+      "source_files": [
+        "src/routes/privacidade.tsx",
+        "src/components/brand.tsx"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "peripheral node `Privacy()` unexpectedly reaches hub `Brand()`"
+    },
+    {
+      "source": "Admin()",
+      "target": "Button",
+      "source_files": [
+        "src/routes/admin.tsx",
+        "src/components/ui/button.tsx"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    }
+  ],
   "tokens": {
     "input": 0,
     "output": 0
